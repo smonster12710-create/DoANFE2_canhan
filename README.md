@@ -1,106 +1,76 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/zA9r5zTllx4" target="_blank">
-      <img src="https://github.com/user-attachments/assets/ab600f24-f4d9-4cef-8f1e-3fd9194afb30" alt="Project Banner">
-    </a>
+  <img src="/img/23126541_198.jpg" alt="Project Banner" width="100%">
   <br />
 
-  <div>
-    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-    <img src="https://img.shields.io/badge/-GSAP-black?style=for-the-badge&logoColor=white&logo=greensock&color=88CE02" alt="greensock" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  <div align="center" style="margin-top: 15px;">
+    <img src="[https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB](https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB)" alt="react.js" />
+    <img src="[https://img.shields.io/badge/-GSAP-black?style=for-the-badge&logoColor=white&logo=greensock&color=88CE02](https://img.shields.io/badge/-GSAP-black?style=for-the-badge&logoColor=white&logo=greensock&color=88CE02)" alt="greensock" />
+    <img src="[https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4](https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4)" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">An Awwwards Winning Website</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <h3 align="center">Personal Web Developer Portfolio</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+---
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+# 🚀 Personal Web Developer Portfolio
 
-## ⚠️ Disclaimer
+Chào mừng bạn đến với kho lưu trữ mã nguồn Portfolio cá nhân của tôi. Đây là nơi trưng bày các sản phẩm sáng tạo, kỹ năng lập trình Full-stack, và các giải pháp công nghệ mà tôi đã nghiên cứu và phát triển trong quá trình học tập.
 
-All design credits go to **[Zentry](https://zentry.com/)**. This project is created purely for **educational purposes** and is not intended for commercial use or public deployment.
+---
 
+## ⚙️ Tech Stack & Công Nghệ Sử Dụng
 
-## 🚨 Tutorial
+Dự án này được xây dựng trên nền tảng các công nghệ Front-end hiện đại nhằm tối ưu hóa hiệu suất hiển thị và trải nghiệm tương tác:
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+- **Core Framework:** React.js (Vite)
+- **Styling:** Tailwind CSS (Tối ưu hóa giao diện Responsive, hiệu ứng cắt khối `clip-path` và dải màu `Gradient`)
+- **Animation:** GSAP (GreenSock Animation Platform) xử lý chuyển động và hiệu ứng cuộn mượt mà
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+---
 
-<a href="https://youtu.be/zA9r5zTllx4" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+## 🔋 Tính Năng Nổi Bật Trên Giao Diện
 
-## <a name="introduction">🤖 Introduction</a>
+👉 **Scroll-Based Animations:** Hệ thống chuyển động tương tác chạy mượt mà dựa theo thao tác cuộn trang của người dùng.
 
-Build a visually captivating website inspired by **[Zentry](https://zentry.com/)**, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling. Learn how to deliver a luxurious, modern feel, focusing on engaging UI/UX and smooth responsiveness, capturing the essence of what makes an Awwwards winner.
+👉 **Clip Path Shaped Masks:** Các khối hình ảnh lập trình được lồng ghép nghệ thuật bằng CSS clip-path tạo chiều sâu thị giác.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **47k+** members. It's a place where people help each other out.
+👉 **Smooth UI/UX:** Giao diện tối ưu hóa độ phản hồi của nút bấm, các dải màu tối được xử lý tinh tế để hòa nhập hoàn hảo với layout tổng thể.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+👉 **Completely Responsive:** Tự động co giãn và hiển thị chuẩn xác trên mọi thiết bị (Mobile, Tablet, Desktop).
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+---
 
-- GSAP
-- React.js
-- Tailwind CSS
+## 📂 Danh Mục Sản Phẩm Trưng Bày (Showcase)
 
-## <a name="features">🔋 Features</a>
+Hồ sơ năng lực của tôi tập trung phản ánh năng lực xử lý mã nguồn qua các mảng:
 
-👉 **Scroll-Based Animations**: Dynamic animations triggered by scrolling for a more engaging user experience.
+1. **Web Development:** Định hướng phát triển các hệ thống ứng dụng web quy mô lớn, tối ưu hóa cơ sở dữ liệu trên nền tảng PHP / Laravel & MySQL (Ví dụ: Hệ thống quản lý đặt lịch phòng khám, Mạng xã hội nội bộ).
+2. **Front-End Development:** Sáng tạo giao diện người dùng tương tác cao, xử lý mượt mà logic JavaScript và hiệu ứng chuyển động trực quan.
+3. **Back-End Development (In Progress):** Thiết kế cấu trúc hệ thống an toàn, bảo mật dữ liệu, xây dựng và tối ưu hóa hệ thống API Endpoints.
 
-👉 **Clip Path Shaped Animations**: Unique geometric transitions using CSS clip-paths to create visually stunning effects.
+---
 
-👉 **3D Hover Effects**: Interactive 3D transformations that respond to user interactions for a modern feel.
+## 🤸 Hướng Dẫn Khởi Chạy Cục Bộ (Quick Start)
 
-👉 **Video Transitions**: Seamlessly integrated video elements to enhance storytelling and flow.
+Làm theo các bước sau để cài đặt và chạy thử giao diện Portfolio này trên máy tính của bạn:
 
-👉 **Smooth UI/UX**: Polished interfaces with buttery-smooth interactions for an intuitive user journey.
+**Điều kiện cần:**
 
-👉 **Completely Responsive**: Flawless adaptation across all devices, ensuring a consistent experience.
+Máy tính đã cài sẵn Git, Node.js và npm (Node Package Manager).
 
-and many more, including code architecture and reusability
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
+**Các bước thực hiện:**
 
 ```bash
-git clone https://github.com/adrianhajdin/award-winning-website.git
-cd award-winning-website
-```
+# 1. Sao chép kho lưu trữ về máy
+git clone https://github.com/smonster12710-create/DoANFE2_canhan.git
+cd DoANFE2_canhan
 
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
+# 2. Cài đặt các gói thư viện phụ thuộc
 npm install
-```
 
-**Running the Project**
-
-```bash
+# 3. Khởi chạy môi trường phát triển (Local Dev)
 npm run dev
 ```
 
@@ -429,18 +399,19 @@ export default RoundedCorners
 
 </details>
 
-## <a name="links">🔗 Assets</a>
+## 🔗 Tài Nguyên & Bản Quyền (Assets & Disclaimer)
 
-Assets used in the project can be found [here](https://drive.google.com/file/d/12hCVnanOAUmM1vzz2dTWZ_uEFGG8xDcT/view?usp=sharing)
+* Các tài nguyên (hình ảnh, fonts) sử dụng trong dự án gốc có thể tham khảo tại [Google Drive Link](https://drive.google.com/file/d/12hCVnanOAUmM1vzz2dTWZ_uEFGG8xDcT/view?usp=sharing).
 
-> This project uses some assets and fonts from **[Zentry](https://zentry.com/)** purely for educational and demonstration purposes. All rights to these assets and fonts belong to their respective owners. If you plan to use this project commercially or publicly, please replace these assets and fonts with ones you own or have permission to use. This project is not affiliated with or endorsed by **[Zentry](https://zentry.com/)**.
+> ⚠️ **Disclaimer:** Dự án này được phát triển hoàn toàn dựa trên cảm hứng thiết kế và tài nguyên từ giao diện của **[Zentry](https://zentry.com/)** với mục đích học tập, thực hành nâng cao kỹ năng Front-end (UI/UX) và tư duy tối ưu hóa mã nguồn. Dự án không phục vụ cho mục đích thương mại và không có sự liên kết chính thức nào với Zentry.
 
-## <a name="more">🚀 More</a>
+---
 
-**Advance your skills with Next.js Pro Course**
+## 🤝 Kết Nối Với Tôi
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+Nếu bạn là nhà tuyển dụng hoặc có nhu cầu trao đổi, hợp tác phát triển dự án, đừng ngần ngại tương tác qua nút hành động trên giao diện hoặc liên hệ trực tiếp với tôi:
+
+📬 **Email:** giahuy.dev206@gmail.com
 
 <a href="https://jsmastery.pro/next15" target="_blank">
    <img src="https://github.com/user-attachments/assets/b8760e69-1f81-4a71-9108-ceeb1de36741" alt="Project Banner">

@@ -69,7 +69,7 @@ const FloatingImage = () => {
                   onMouseLeave={handleMouseLeave}
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
-                  src="/img/entrance.webp" // Mẹo: Bạn nên thay ảnh này bằng một bức ảnh Mockup tổng hợp hoặc ảnh giao diện Social Network/Game đẹp nhất của bạn nhé!
+                  src="/img/23126541_198.png" // Mẹo: Bạn nên thay ảnh này bằng một bức ảnh Mockup tổng hợp hoặc ảnh giao diện Social Network/Game đẹp nhất của bạn nhé!
                   alt="featured-project-mockup"
                   className="object-contain"
                 />
@@ -120,7 +120,7 @@ const FloatingImage = () => {
               containerClass="mt-5"
               onClick={() => {
                 // Mẹo: Bạn có thể viết logic mở link GitHub hoặc cuộn đến danh sách dự án chi tiết ở đây
-                window.open("https://github.com/tai-khoan-github-cua-ban", "_blank");
+                window.open("https://github.com/smonster12710-create", "_blank");
               }}
             />
           </div>
