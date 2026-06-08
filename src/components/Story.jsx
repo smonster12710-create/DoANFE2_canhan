@@ -48,13 +48,15 @@ const FloatingImage = () => {
   return (
     <div id="projects" className="min-h-dvh w-screen bg-black text-blue-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
-        <p className="font-general text-sm uppercase md:text-[10px]">
-          the multiversal ip world
+        {/* Chữ nhỏ trên cùng giới thiệu chương mục */}
+        <p className="font-general text-sm uppercase md:text-[10px] tracking-widest">
+          Featured Showcases
         </p>
 
         <div className="relative size-full">
+          {/* Tiêu đề lớn lồng hiệu ứng text đặc trưng */}
           <AnimatedTitle
-            title="the st<b>o</b>ry of <br /> a hidden real<b>m</b>"
+            title="The st<b>o</b>ries told <br /> through m<b>y</b> projects"
             containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
           />
 
@@ -67,14 +69,14 @@ const FloatingImage = () => {
                   onMouseLeave={handleMouseLeave}
                   onMouseUp={handleMouseLeave}
                   onMouseEnter={handleMouseLeave}
-                  src="/img/entrance.webp"
-                  alt="entrance.webp"
+                  src="/img/entrance.webp" // Mẹo: Bạn nên thay ảnh này bằng một bức ảnh Mockup tổng hợp hoặc ảnh giao diện Social Network/Game đẹp nhất của bạn nhé!
+                  alt="featured-project-mockup"
                   className="object-contain"
                 />
               </div>
             </div>
 
-            {/* for the rounded corner */}
+            {/* SVG filter cho hiệu ứng bo góc mượt của mask */}
             <svg
               className="invisible absolute size-0"
               xmlns="http://www.w3.org/2000/svg"
@@ -103,18 +105,23 @@ const FloatingImage = () => {
           </div>
         </div>
 
+        {/* Khối mô tả dự án và Nút bấm hành động */}
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
-            <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-              Where realms converge, lies Zentry and the boundless pillar.
-              Discover its secrets and shape your fate amidst infinite
-              opportunities.
+            <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start leading-relaxed">
+              Every system has an architecture, and every application tells a story.
+              Dive deeper into my codebases to explore full-stack solutions, creative UI
+              mechanics, and robust data workflows.
             </p>
 
             <Button
               id="realm-btn"
-              title="discover prologue"
+              title="Explore All Projects"
               containerClass="mt-5"
+              onClick={() => {
+                // Mẹo: Bạn có thể viết logic mở link GitHub hoặc cuộn đến danh sách dự án chi tiết ở đây
+                window.open("https://github.com/tai-khoan-github-cua-ban", "_blank");
+              }}
             />
           </div>
         </div>
