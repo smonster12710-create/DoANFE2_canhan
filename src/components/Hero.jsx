@@ -154,7 +154,12 @@ const Hero = () => {
             </p>
 
             {/* Nút bấm */}
-            <a href="https://stella.page.gd/?i=1" className="inline-block mb-8">
+            <a
+              href="https://stella.page.gd/?i=1"
+              className="inline-block mb-8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button
                 id="watch-trailer"
                 title="See my work"
