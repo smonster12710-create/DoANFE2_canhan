@@ -50,7 +50,7 @@ const FloatingImage = () => {
       <div className="flex size-full flex-col items-center py-10 pb-24">
         {/* Chữ nhỏ trên cùng giới thiệu chương mục */}
         <p className="font-general text-sm uppercase md:text-[10px] tracking-widest">
-          Featured Showcases
+          Project Showcases
         </p>
 
         <div className="relative size-full">

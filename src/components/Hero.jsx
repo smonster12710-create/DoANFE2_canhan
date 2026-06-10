@@ -140,21 +140,21 @@ const Hero = () => {
           />
         </div>
 
-        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          E<b>XPE</b>RIENCE
-        </h1>
-
-        <div className="absolute left-0 top-0 z-40 size-full">
-          <div className="mt-24 px-5 sm:px-10">
-            <h1 className="special-font hero-heading text-blue-100">
-              DEVELO<b>P</b>MENT
+        {/* --- KHUNG MÀU NÂU CHỨA TOÀN BỘ CHỮ NẰM BÊN TRÁI --- */}
+        <div className="absolute left-0 top-0 z-40 h-full w-full sm:w-[450px] bg-amber-950/40 backdrop-blur-sm p-8 sm:p-12 flex flex-col justify-center border-r border-white/10">
+          <div>
+            {/* Tiêu đề DEVELOPMENT */}
+            <h1 className="special-font hero-heading !text-5xl text-blue-100 text-left !leading-none mb-4">
+              Lau<b>N</b>Ching
             </h1>
 
-            <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              Leveling up the web with interactive experiences <br /> Designing worlds, one line of code at a time
+            {/* Đoạn mô tả */}
+            <p className="mb-6 max-w-sm font-robert-regular text-blue-100 text-left">
+              Specializing in building modern, <br /> high-performance web applications using React, Tailwind CSS, and advanced animations with GSAP.
             </p>
 
-            <a href="https://stella.page.gd/?i=1" className="inline-block">
+            {/* Nút bấm */}
+            <a href="https://stella.page.gd/?i=1" className="inline-block mb-8">
               <Button
                 id="watch-trailer"
                 title="See my work"
@@ -162,13 +162,17 @@ const Hero = () => {
                 containerClass="bg-yellow-300 flex-center gap-1"
               />
             </a>
+
+            {/* Chữ EXPERIENCE được gom vào đây và đổi màu sang trắng/xanh nhạt để nổi bật trên nền nâu */}
+            <h4 className="special-font hero-heading !text-5xl text-yellow-700 text-left !leading-none mt-4">
+              I<b>D</b>eas
+            </h4>
           </div>
         </div>
-      </div>
 
-      <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        E<b>XPE</b>RIENCE
-      </h1>
+      </div> {/* Kết thúc #video-frame */}
+
+      {/* Xóa bỏ phần chữ EXPERIENCE nằm ngoài rìa phải ở đây nếu bạn muốn chuyển hẳn nó sang bên trái */}
     </div>
   );
 };
